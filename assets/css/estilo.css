@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
 }
+
+
 body {
     
     padding-bottom: 30px;
@@ -21,6 +23,7 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-around;
+    
 
     
     
@@ -55,18 +58,29 @@ body {
 }
 
 .menu2 {
-    background-color: yellowgreen;
-    flex: 2;
+    flex: 2.5;
+    margin-top: 0px;
 }
+
 
 .menu2 a {
     text-decoration: none;
-    color: #000;
-    font-family: 'Segoe UI';
+    color: #eceaea;
+    font-family: 'Arial';  
+    padding-top:8px;
+    padding-bottom:8px;
+    align-items: center;
+    font-weight: bold;
     
 }
 
+.menu2 li a:hover {
+    background-color: #000;
+}
 
+.menu img {
+    width: 20px;
+}
 
 .barrinha {
     background-color: black;
